@@ -14364,6 +14364,7 @@ body:not(.device-touch) #gotoTop {
 	border-bottom: 1px solid #666;
 }
 
+
 .copyrights-menu { margin-bottom: 10px; }
 
 .copyrights-menu a {
@@ -14377,10 +14378,10 @@ body:not(.device-touch) #gotoTop {
 #copyrights.text-end a:last-child { margin-right: 0; }
 
 .footer-logo {
-	display: block;
+	display: inline-block;
 	margin-bottom: 30px;
+	margin-right: 20px;
 }
-
 
 /* ----------------------------------------------------------------
 	Widgets
