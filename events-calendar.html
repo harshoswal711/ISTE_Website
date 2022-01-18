@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/calendar.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Events Calendar | Canvas</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc">
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+							<!-- Top Cart
+							============================================= -->
+							<div id="top-cart" class="header-misc-icon d-none d-sm-block">
+								<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
+								<div class="top-cart-content">
+									<div class="top-cart-title">
+										<h4>Shopping Cart</h4>
+									</div>
+									<div class="top-cart-items">
+										<div class="top-cart-item">
+											<div class="top-cart-item-image">
+												<a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+											</div>
+											<div class="top-cart-item-desc">
+												<div class="top-cart-item-desc-title">
+													<a href="#">Blue Round-Neck Tshirt with a Button</a>
+													<span class="top-cart-item-price d-block">$19.99</span>
+												</div>
+												<div class="top-cart-item-quantity">x 2</div>
+											</div>
+										</div>
+										<div class="top-cart-item">
+											<div class="top-cart-item-image">
+												<a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+											</div>
+											<div class="top-cart-item-desc">
+												<div class="top-cart-item-desc-title">
+													<a href="#">Light Blue Denim Dress</a>
+													<span class="top-cart-item-price d-block">$24.99</span>
+												</div>
+												<div class="top-cart-item-quantity">x 3</div>
+											</div>
+										</div>
+									</div>
+									<div class="top-cart-action">
+										<span class="top-checkout-price">$114.95</span>
+										<a href="#" class="button button-3d button-small m-0">View Cart</a>
+									</div>
+								</div>
+							</div><!-- #top-cart end -->
+
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container one-page-menu" data-easing="easeInOutExpo" data-speed="1500">
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#home"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="about.html" ><div>About</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="team.html" ><div>Team</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="events-calendar.html" ><div>Events</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="blog.html"><div>Blogs</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="contact.html" ><div>Contact</div></a></li>
+							</ul>
+
+
+						</nav><!-- #primary-menu end -->
+
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+
+				<div class="parallax header-stick bottommargin-lg dark" style="padding: 60px 0; background-image: url('images/parallax/calendar.jpg'); height: auto;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -500px;">
+
+					<div class="container clearfix">
+
+						<div class="events-calendar">
+							<div class="events-calendar-header clearfix">
+								<h2>Events Overview</h2>
+								<h3 class="calendar-month-year">
+									<span id="calendar-month" class="calendar-month"></span>
+									<span id="calendar-year" class="calendar-year"></span>
+									<nav>
+										<span id="calendar-prev" class="calendar-prev"><i class="icon-chevron-left"></i></span>
+										<span id="calendar-next" class="calendar-next"><i class="icon-chevron-right"></i></span>
+										<span id="calendar-current" class="calendar-current" title="Got to current date"><i class="icon-reload"></i></span>
+									</nav>
+								</h3>
+							</div>
+							<div id="calendar" class="fc-calendar-container"></div>
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="container clearfix">
+
+					<div class="row col-mb-50">
+						<div class="col-sm-6 col-lg-3">
+							<div class="feature-box fbox-effect fbox-center fbox-outline border-bottom-0">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-calendar i-alt"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Interactive Sessions<span class="subtitle">Lorem ipsum dolor sit</span></h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3">
+							<div class="feature-box fbox-effect fbox-center fbox-outline border-bottom-0">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-map i-alt"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Great Locations<span class="subtitle">Officia ipsam laudantium</span></h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3">
+							<div class="feature-box fbox-effect fbox-center fbox-outline border-bottom-0">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-microphone2 i-alt"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Global Speakers<span class="subtitle">Laudantium cum dignissimos</span></h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3">
+							<div class="feature-box fbox-effect fbox-center fbox-outline border-bottom-0">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-food2 i-alt"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>In-between Meals<span class="subtitle">Perferendis accusantium quae</span></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="divider divider-center"><i class="icon-circle-blank"></i></div>
+
+					<h3>Upcoming Events</h3>
+
+					<div class="row">
+
+						<div class="entry event col-12">
+							<div class="grid-inner row align-items-center g-0 p-4">
+								<div class="col-md-4 mb-md-0">
+									<a href="#" class="entry-image">
+										<img src="images/events/thumbs/1.jpg" alt="Inventore voluptates velit totam ipsa tenetur">
+										<div class="entry-date">10<span>Apr</span></div>
+									</a>
+								</div>
+								<div class="col-md-8 ps-md-4">
+									<div class="entry-title title-sm">
+										<h2><a href="#">Inventore voluptates velit totam ipsa tenetur</a></h2>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><span class="badge bg-warning text-dark px-2 py-1">Private</span></li>
+											<li><a href="#"><i class="icon-time"></i> 11:00 - 19:00</a></li>
+											<li><a href="#"><i class="icon-map-marker2"></i> Melbourne, Australia</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
+										<a href="#" class="btn btn-secondary" disabled="disabled">Buy Tickets</a> <a href="#" class="btn btn-danger">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="entry event col-12">
+							<div class="grid-inner row align-items-center g-0 p-4">
+								<div class="col-md-4 mb-md-0">
+									<a href="#" class="entry-image">
+										<img src="images/events/thumbs/2.jpg" alt="Nemo quaerat nam beatae iusto minima vel">
+										<div class="entry-date">16<span>Apr</span></div>
+									</a>
+								</div>
+								<div class="col-md-8 ps-md-4">
+									<div class="entry-title title-sm">
+										<h2><a href="#">Nemo quaerat nam beatae iusto minima vel</a></h2>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><span class="badge bg-danger px-2 py-1">Urgent</span></li>
+											<li><a href="#"><i class="icon-time"></i> 11:00 - 19:00</a></li>
+											<li><a href="#"><i class="icon-map-marker2"></i> Perth, Australia</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
+										<a href="#" class="btn btn-info">RSVP</a> <a href="#" class="btn btn-danger">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="entry event col-12">
+							<div class="grid-inner row align-items-center g-0 p-4">
+								<div class="col-md-4 mb-md-0">
+									<a href="#" class="entry-image">
+										<img src="images/events/thumbs/3.jpg" alt="Ducimus ipsam error fugiat harum recusandae">
+										<div class="entry-date">3<span>May</span></div>
+									</a>
+								</div>
+								<div class="col-md-8 ps-md-4">
+									<div class="entry-title title-sm">
+										<h2><a href="#">Ducimus ipsam error fugiat harum recusandae</a></h2>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><span class="badge bg-info text-dark px-2 py-1">Public</span></li>
+											<li><a href="#"><i class="icon-time"></i> 11:00 - 19:00</a></li>
+											<li><a href="#"><i class="icon-map-marker2"></i> Melbourne, Australia</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
+										<a href="#" class="btn btn-secondary">Buy Tickets</a> <a href="#" class="btn btn-danger">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="entry event col-12">
+							<div class="grid-inner row align-items-center g-0 p-4">
+								<div class="col-md-4 mb-md-0">
+									<a href="#" class="entry-image">
+										<img src="images/events/thumbs/4.jpg" alt="Nisi officia adipisci molestiae aliquam">
+										<div class="entry-date">16<span>Jun</span></div>
+									</a>
+								</div>
+								<div class="col-md-8 ps-md-4">
+									<div class="entry-title title-sm">
+										<h2><a href="#">Nisi officia adipisci molestiae aliquam</a></h2>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><span class="badge bg-warning text-dark px-2 py-1">Private</span></li>
+											<li><a href="#"><i class="icon-time"></i> 12:00 - 18:00</a></li>
+											<li><a href="#"><i class="icon-map-marker2"></i> New York</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
+										<a href="#" class="btn btn-info">RSVP</a> <a href="#" class="btn btn-danger">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+						<div class="col-lg-8">
+							<div class="row col-mb-50">
+								<div class="col-md-4">
+									<!-- Div of quick links (need an updated with the lastet links) -->
+									<div class="widget widget_links clearfix">
+
+										<h4>Other Pages</h4>
+
+										<ul class="quicklinks">
+											<li><a href="#">Home</a></li>
+											<li><a href="#">About Us</a></li>
+											<li><a href="">The Team</a></li>
+											<li><a href="">Events</a></li>
+											<li><a href="">Blogs</a></li>
+											<li><a href="">Contact</a></li>
+										</ul>
+
+									</div>
+
+								</div>
+
+								<!-- Div of Logo (Currently Canvas) -->
+								<div class="col-md-8">
+
+									<div class="widget text-center clearfix">
+										<h1>ISTE AISSMS COE</h1>
+										<img src="images/istelogo.png" alt="Image" class="footer-logo">
+
+									</div>
+
+								</div>
+									
+								
+
+								
+							</div>
+
+						</div>
+
+						<div class="col-lg-4">
+
+							<div class="row col-mb-50">
+								
+								<div class="col-md-5 col-lg-12">
+									<div class="widget subscribe-widget clearfix">
+										<h5><strong>Feedback: </strong> Connect to us and share your feedback and help the community improve</h5>
+										<div class="widget-subscribe-form-result"></div>
+										<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+											<div class="input-group mx-auto">
+												<div class="input-group-text"><i class="icon-email2"></i></div>
+												<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+												<button class="btn btn-success" type="submit">Subscribe</button>
+											</div>
+										</form>
+									</div>
+								</div>
+
+								<!-- Social Media Handles -->
+								<div class="col-md-3 col-lg-12">
+									<div class="widget clearfix" style="margin-bottom: -20px;">
+
+										<div class="row">
+											<div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
+												<a href="https://www.facebook.com/aissmscoepune" class="social-icon si-small si-borderless si-facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+											</div>
+											<div class="col-6 col-md-12 col-lg-6 clearfix">
+												<a href="https://www.instagram.com/aissms_coe/" class="social-icon si-small si-borderless si-instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Follow</strong><br>us on Instagram</small></a>
+											</div>
+											<div class="col-6 col-md-12 col-lg-6 clearfix">
+												<a href="https://twitter.com/AISSMS_COE" class="social-icon si-small si-borderless si-twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Tweet</strong><br>about us</small></a>
+											</div>
+											<div class="col-6 col-md-12 col-lg-6 clearfix">
+												<a href="#" class="social-icon si-small si-borderless si-linkedin">
+													<i class="icon-linkedin"></i>
+													<i class="icon-linkedin"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Stay Connected</strong><br>through LinkedIn</small></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row col-mb-30">
+
+						<div class="col-md-6 text-center text-md-start">
+							Copyrights &copy; 2022 All Rights Reserved by ISTE AISSMS-COE <br>
+						</div>
+
+						<div class="col-md-6 text-center text-md-end">
+							<div class="d-flex justify-content-center justify-content-md-end">
+								<a href="#" class="social-icon si-small si-borderless si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-twitter">
+									<i class="icon-twitter"></i>
+							
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-gplus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-pinterest">
+									<i class="icon-pinterest"></i>
+									<i class="icon-pinterest"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-vimeo">
+									<i class="icon-vimeo"></i>
+									<i class="icon-vimeo"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-github">
+									<i class="icon-github"></i>
+									<i class="icon-github"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-yahoo">
+									<i class="icon-yahoo"></i>
+									<i class="icon-yahoo"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+							</div>
+
+							<div class="clear"></div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+	<script src="js/jquery.calendario.js"></script>
+	<script src="js/events-data.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		var cal = $( '#calendar' ).calendario( {
+				onDayClick : function( $el, $contentEl, dateProperties ) {
+
+					for( var key in dateProperties ) {
+						console.log( key + ' = ' + dateProperties[ key ] );
+					}
+
+				},
+				caldata : canvasEvents
+			} ),
+			$month = $( '#calendar-month' ).html( cal.getMonthName() ),
+			$year = $( '#calendar-year' ).html( cal.getYear() );
+
+		$( '#calendar-next' ).on( 'click', function() {
+			cal.gotoNextMonth( updateMonthYear );
+		} );
+		$( '#calendar-prev' ).on( 'click', function() {
+			cal.gotoPreviousMonth( updateMonthYear );
+		} );
+		$( '#calendar-current' ).on( 'click', function() {
+			cal.gotoNow( updateMonthYear );
+		} );
+
+		function updateMonthYear() {
+			$month.html( cal.getMonthName() );
+			$year.html( cal.getYear() );
+		};
+
+	</script>
+
+</body>
+</html>
