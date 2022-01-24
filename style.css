@@ -3284,12 +3284,25 @@ html[xmlns] .slider-wrap {
 		Sticky Header
 	-----------------------------------------------------------------*/
 
+	#logo {
+		display: flex;
+		justify-content: center;
+		
+	}
+
 	#logo img {
 		-webkit-transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 		transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 	}
 
 	#logo img { max-height: 100%; }
+	
+	
+	#logo h3 {
+		align-items: center;
+		margin-top: 25px;
+		margin-left: 30px;
+	}
 
 	.sub-menu-container,
 	.mega-menu-content {
