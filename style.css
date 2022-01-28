@@ -11963,6 +11963,29 @@ body:not(.device-touch) .clients-grid .grid-item a {
 	Team
 -----------------------------------------------------------------*/
 
+  
+.title-style h1:before {
+	width: 28px;
+	height: 5px;
+	display: block;
+	content: "";
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	margin-left: -14px;
+	background-color: #1ABC9C;
+  }
+  .title-style h1:after {
+	width: 100px;
+	height: 1px;
+	display: block;
+	content: "";
+	position: relative;
+	margin-top: 25px;
+	left: 50%;
+	margin-left: -50px;
+	background-color:#1ABC9C;
+  }
 
 .team,
 .team-image { position: relative; }
