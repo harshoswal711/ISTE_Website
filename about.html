@@ -53,6 +53,11 @@
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
 							</div><!-- #top-search end -->
 
+<<<<<<< HEAD
+							
+
+=======
+>>>>>>> 04884dd50da12d5c869ab5de5796e285b16e0a65
 						</div>
 
 						<div id="primary-menu-trigger">
@@ -91,7 +96,7 @@
 
 			<div class="container clearfix">
 				<h1>About Us</h1>
-				<span>Everything you need to know about our Company</span>
+				<span>Everything you need to know about our Students' Chapter</span>
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="#">Home</a></li>
 					<li class="breadcrumb-item"><a href="#">Pages</a></li>
@@ -112,10 +117,10 @@
 						<div class="col-lg-4">
 
 							<div class="heading-block fancy-title border-bottom-0 title-bottom-border">
-								<h4>Why choose <span>Us</span>.</h4>
+								<h4>Why <span>Us</span>.</h4>
 							</div>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+							<p>Major benefits of joining ISTE is that you get to be a part of an academic fraternity of strong professionals. You are eligible to participate in many national events. ISTE provides guidance and training to students to develop better learning skills and personality.</p>
 
 						</div>
 
@@ -125,7 +130,7 @@
 								<h4>Our <span>Mission</span>.</h4>
 							</div>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+							<p>We aim to enhance the leadership qualities among students and provide them a platform which enriches their social as well as interpersonal skills and acquaint them with extra classroom knowledge for their overall growth.</p>
 
 						</div>
 
@@ -135,7 +140,7 @@
 								<h4>What we <span>Do</span>.</h4>
 							</div>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+							<p>We organize technical workshops, seminars to provide insights to students. Give industrial visits, arrange intercollegiate competitions to embed teamwork skills. Training programs are devised to assist the young minds update their knowledge.</p>
 
 						</div>
 
@@ -395,6 +400,85 @@
 
 				</div>
 			</div>
+			<!-- Modal Contact Form
+							============================================= -->
+							<a href="#" data-bs-toggle="modal" data-bs-target="#contactFormModal" style="padding: 1%; position: relative; border: 3px solid green; margin-left: 20%; margin-right: 20%;" class="button button-3d rounded-pill m-20 w-80 button-xlarge d-none d-md-block center">Get to know more about us</a>
+							<a href="#" data-bs-toggle="modal" data-bs-target="#contactFormModal" style="padding: 1%; position: relative; border: 3px solid green; margin-left: 20%; margin-right: 20%;" class="button button-3d rounded-pill m-20 w-90 d-block d-md-none center">Send an Email</a>
+
+							<div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog" aria-labelledby="contactFormModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title" id="contactFormModalLabel">Send Us an Email</h4>
+											<button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-hidden="true"></button>
+										</div>
+										<div class="modal-body">
+
+											<div class="form-widget">
+												<div class="form-result"></div>
+												<form class="mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+
+													<div class="form-process">
+														<div class="css3-spinner">
+															<div class="css3-spinner-scaler"></div>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col-sm-6 form-group">
+															<label for="template-contactform-name">Name <small>*</small></label>
+															<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+														</div>
+
+														<div class="col-sm-6 form-group">
+															<label for="template-contactform-email">Email <small>*</small></label>
+															<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+														</div>
+
+														<div class="w-100"></div>
+
+														<div class="col-sm-6 form-group">
+															<label for="template-contactform-phone">Phone</label>
+															<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+														</div>
+
+
+														<div class="w-100"></div>
+
+														<div class="col-12 form-group">
+															<label for="template-contactform-subject">Subject <small>*</small></label>
+															<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
+														</div>
+
+														<div class="col-12 form-group">
+															<label for="template-contactform-message">Message <small>*</small></label>
+															<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+														</div>
+
+														<div class="col-12 form-group d-none">
+															<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+														</div>
+
+														<div class="col-12 form-group">
+															<button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+														</div>
+													</div>
+
+													<input type="hidden" name="prefix" value="template-contactform-">
+
+												</form>
+
+											</div>
+
+
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+										</div>
+									</div><!-- /.modal-content -->
+								</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+							<!-- Modal Contact Form End -->
 		</section><!-- #content end -->
 
 		<!-- Footer
